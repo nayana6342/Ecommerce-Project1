@@ -1,0 +1,36 @@
+/* Login.css */
+body {
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.first {
+  width: 400px;
+  margin: 40px auto; /* small top space */
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #4d2c14;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first select {
+  height: 56px; /* matches MUI TextField height */
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.first button {
+  margin-top: 10px;
+}
+
+.first .recaptcha-container {
+  transform: scale(0.95); /* adjust between 0.5 - 1.0 for size */
+  transform-origin: 0 0;   /* anchor scaling to top-left */
+}

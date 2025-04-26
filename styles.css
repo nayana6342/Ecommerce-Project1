@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    font-family: 'Verdana' ;
+    font-style: italic;
+    background-color: #f1c88a; /* Soft, warm beige */
+    color: #33251c;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.MuiAppBar-root {
+    background-color: #a1662f !important; /* Rich brown-gold */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navbar Text */
+.MuiTypography-h6 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #f7d794; /* Soft gold for a luxury feel */
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Icons */
+.MuiIconButton-root {
+    color: #ffecd1 !important; /* Warm pastel */
+}
+
+.MuiButton-root {
+    background-color: #d4af37;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.MuiButton-root:hover {
+    background-color: #8b5a2b;
+    color: #fff;
+}
+
+/* Card Styling */
+.MuiCard-root {
+    background-color: #fbe8d3; /* Soft pastel peach */
+    border-radius: 12px;
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.MuiCard-root:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Image Border */
+.MuiCardMedia-root {
+    border-bottom: 4px solid #d4af37; 
+}
+
+/* Typography Enhancements */
+.MuiTypography-h5 {
+    font-family: 'Verdana';
+    font-weight: bold;
+    color: #8b5a2b;
+}
+
+.MuiTypography-body2 {
+    font-size: 1rem;
+    font-style: italic;
+    color: #555;
+}
+
+.MuiTypography-body1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+/* Grid Layout */
+.MuiGrid-container {
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Icon Hover Effects */
+.MuiIconButton-root:hover {
+    color: #d4af37;
+}
